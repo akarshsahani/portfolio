@@ -4,25 +4,27 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+    java,
+    springboot,
+    aws,
+    mySQL,
+    
+    kittivaasal,
+    racloop,
+
+    adminDashboard,
+    portfolio,
+    trollvilla,
+    erp,
+
   } from "../assets";
   
   export const navLinks = [
@@ -54,12 +56,32 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Java Developer",
       icon: creator,
     },
   ];
   
   const technologies = [
+    {
+      name: "Java",
+      icon: java,
+    },
+    {
+      name: "Springboot",
+      icon: springboot,
+    },
+    {
+      name: "AWS",
+      icon: aws,
+    },
+    {
+      name: "MySQL",
+      icon: mySQL,
+    },
+    {
+      name: "MongoDB",
+      icon: mongodb,
+    },
     {
       name: "HTML 5",
       icon: html,
@@ -73,16 +95,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -93,20 +107,8 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
     },
     {
       name: "docker",
@@ -116,57 +118,31 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Software Engineer",
+      company_name: "Racloop Technologies PVT. LTD.",
+      icon: racloop,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Feb 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining applications using Java, Springboot and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "ML Engineer Intern",
+      company_name: "Kittivaasal Technologies PVT. LTD.",
+      icon: kittivaasal,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Feb 2022 - May 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed and maintaining Android applications using Java, Android Studio and other related technologies.",
+        "Implemented machine learning algotithms for feed recommendations.",
+        "Utilised opportunity to learn and implement design skills.",
+        "Participated in Brainstorming session and gained exposure to professional work environment.",
       ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    }
   ];
   
   const testimonials = [
@@ -198,9 +174,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Admin Dashboard",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to view and analyse sales data.",
       tags: [
         {
           name: "react",
@@ -215,13 +191,14 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: adminDashboard,
       source_code_link: "https://github.com/",
+      live_link: "https://dashboard-frontend-3fij.onrender.com",
     },
     {
-      name: "Job IT",
+      name: "3d Portfolio",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that illustrate users portfolio.",
       tags: [
         {
           name: "react",
@@ -232,33 +209,57 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwindcss",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: portfolio,
+      source_code_link: "https://github.com/akarshsahani/portfolio",
+      live_link: "https://akashsahani.com",
     },
     {
-      name: "Trip Guide",
+      name: "TrollVilla",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A comprehensive backend app including Student portal, Faculties Portal and Management portal to create, read, update and delete their details.",
       tags: [
         {
-          name: "nextjs",
+          name: "java",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "androidstudio",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "firebase",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: trollvilla,
+      source_code_link: "https://play.google.com/store/apps/details?id=com.shivaconsulting.memesapp&hl=en&gl=US",
+      live_link: "https://play.google.com/store/apps/details?id=com.shivaconsulting.memesapp&hl=en&gl=US",
+    },
+    {
+      name: "ERP Management",
+      description:
+        "A comprehensive backend app including Student portal, Faculties Portal and Management portal to create, read, update and delete their informations.",
+      tags: [
+        {
+          name: "java",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Springboot",
+          color: "green-text-gradient",
+        },
+        {
+          name: "sql",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: erp,
+      source_code_link: "https://github.com/akarshsahani/ERP-Management",
+      live_link: "https://github.com/akarshsahani/ERP-Management",
     },
   ];
   
